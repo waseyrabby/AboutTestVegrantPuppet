@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="6125" started-at="2016-10-20T02:58:36Z" finished-at="2016-10-20T02:58:42Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="6125" started-at="2016-10-20T02:58:36Z" finished-at="2016-10-20T02:58:42Z">
+      <class name="about.api.test.Test">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:about.api.test.Test@47b2e9e1]" name="beforetest" is-config="true" duration-ms="4298" started-at="2016-10-19T22:58:36Z" finished-at="2016-10-19T22:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="idTest()[pri:0, instance:about.api.test.Test@47b2e9e1]" name="idTest" duration-ms="24" started-at="2016-10-19T22:58:40Z" finished-at="2016-10-19T22:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- idTest -->
+        <test-method status="PASS" signature="responseTest()[pri:0, instance:about.api.test.Test@47b2e9e1]" name="responseTest" duration-ms="1724" started-at="2016-10-19T22:58:41Z" finished-at="2016-10-19T22:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responseTest -->
+        <test-method status="PASS" signature="afterretest()[pri:0, instance:about.api.test.Test@47b2e9e1]" name="afterretest" is-config="true" duration-ms="0" started-at="2016-10-19T22:58:42Z" finished-at="2016-10-19T22:58:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterretest -->
+      </class> <!-- about.api.test.Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

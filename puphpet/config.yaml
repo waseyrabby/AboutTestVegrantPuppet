@@ -224,7 +224,7 @@ letsencrypt:
 php:
     install: '1'
     settings:
-        version: '7.0'
+        version: '5.5'
     modules:
         php:
             - cli
