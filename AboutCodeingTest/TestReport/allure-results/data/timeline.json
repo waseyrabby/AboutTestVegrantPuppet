@@ -1,0 +1,101 @@
+{
+  "hosts" : [ {
+    "title" : "Aams-MacBook-Pro-2.local",
+    "threads" : [ {
+      "title" : "43306@Aams-MacBook-Pro-2.local.main(1)",
+      "testCases" : [ {
+        "uid" : "cbfd3553ea25059d",
+        "name" : "idTest",
+        "title" : "Id test",
+        "time" : {
+          "start" : 1476944065192,
+          "stop" : 1476944065194,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d81dccbbd04bd8ca",
+        "name" : "responseTest",
+        "title" : "Response test",
+        "time" : {
+          "start" : 1476944065250,
+          "stop" : 1476944066992,
+          "duration" : 1742
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "title" : "50145@Aams-MacBook-Pro-2.local.main(1)",
+      "testCases" : [ {
+        "uid" : "6b2da88e65129dc6",
+        "name" : "testUi",
+        "title" : "Test ui",
+        "time" : {
+          "start" : 1476971843711,
+          "stop" : 1476971843733,
+          "duration" : 22
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "title" : "43380@Aams-MacBook-Pro-2.local.main(1)",
+      "testCases" : [ {
+        "uid" : "48de073ee814edbc",
+        "name" : "testUi",
+        "title" : "Test ui",
+        "time" : {
+          "start" : 1476944104879,
+          "stop" : 1476944135014,
+          "duration" : 30135
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "title" : "50275@Aams-MacBook-Pro-2.local.main(1)",
+      "testCases" : [ {
+        "uid" : "a6e36b6f63cad5a",
+        "name" : "testUi",
+        "title" : "Test ui",
+        "time" : {
+          "start" : 1476971919695,
+          "stop" : 1476971919721,
+          "duration" : 26
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "title" : "49842@Aams-MacBook-Pro-2.local.main(1)",
+      "testCases" : [ {
+        "uid" : "826f378fa9b09a0e",
+        "name" : "testUi",
+        "title" : "Test ui",
+        "time" : {
+          "start" : 1476971660481,
+          "stop" : 1476971660588,
+          "duration" : 107
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "title" : "49548@Aams-MacBook-Pro-2.local.main(1)",
+      "testCases" : [ {
+        "uid" : "9832f272dbfbf697",
+        "name" : "testUi",
+        "title" : "Test ui",
+        "time" : {
+          "start" : 1476971488774,
+          "stop" : 1476971488865,
+          "duration" : 91
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "826f378fa9b09a0e",
+  "name" : "testUi",
+  "title" : "Test ui",
+  "time" : {
+    "start" : 1476971660481,
+    "stop" : 1476971660588,
+    "duration" : 107
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d8e86b400bcad2b5",
+    "name" : "Default Suite : AboutCodeingTest",
+    "title" : "Default Suite : AboutCodeingTest"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Aams-MacBook-Pro-2.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "Default Suite : AboutCodeingTest"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Default Suite : AboutCodeingTest"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "49842@Aams-MacBook-Pro-2.local.main(1)"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,1 +1,69 @@
 //please add your test cases here.
+
+
+Verify Remove Button: 
+	1. Select an Item from the to do list and click on Remove Button 
+		: It should remove from the ui
+		: Log into database and verify the value is removed from the data base
+
+	2. Select all the items from the do to list and click on remove button
+		: Verify it removed all the items from the lists
+
+Verify Complete Button:
+	1. Select an item from the to do list and click on the Complete button
+		: It should cross out the item in the to do list
+		: after completing the task , verify it changes the color 
+		: Log into DB and verify it updates the database end point
+	2.  Select all the item from the to to list and click on the Complete Button
+	3. verify without selecting any item Complete button doesn’t do any changes
+	4. Verify select an item once and click on the complete button and then select the same item again and click on the complete button again
+		: it should set the value as before (deselected and change the color as well)
+
+Verify the Toggle all Button:
+	1. Selecting toggle all check box selects all the times from the to do lists
+	2. Deselecting toggle all check box unselects all the items from the to do lists
+
+Verify Advanced :
+	1. By clicking on advanced should hide the followings from the UI
+		: 1. category 2. Due 3. Add Category 
+Verify Add Button:
+	1. To Do list:
+		: Verify user able to add list by clicking on the add button
+		: Verify adding the same to do list shows an error message
+		: 
+	2. Category:
+		: verify users able to add a category
+		: verify all the category lists from the drop down lists
+		
+	3. Due:
+		: verify users able to add a due date 
+		: verify due date can be only in future date
+		: verify selecting past due date shows an error message to the user 
+Verify Add Category:
+	1. Verify users able to add a new category 
+		: adding category should save an entry in the database
+	2. Verify duplicate category shows an error message to the user
+	3. verify user able to user colors for the new category as well
+	4. verify adding the same color for the another category shows an error massage to the user
+		:That colour is already being used by: Leisure.
+
+		:Do you want to rename Leisure to AfterWork?
+
+		:Or do you want to add AfterWork and remove the colour of 'Leisure'?
+
+		:Rename the category, Add the category with this colour, Nevermind
+Verify Add Category> Rename the category Link:
+	1. it should take the user to the main page with highlighted the typed category
+
+Verify Add Category> Add the category with this colour Link:
+	1. it should 
+
+Verify Add Category> Nevermind Link:
+	1. it should 
+
+Error Message:
+	List all the error message that should show the users:
+
+Bugs:
+	1. Overdue is not in the category dropdown lists
+	2. after typing in the add text box if user enter the “enter/return” button it refresh the page and wiped out all the to do lists(Migt be a browser compability issue/works fine on firefox)

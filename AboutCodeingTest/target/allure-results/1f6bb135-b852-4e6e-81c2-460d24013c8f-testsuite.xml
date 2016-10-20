@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1476944059537" stop="1476944066996" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : AboutCodeingTest</name>
+    <title>Default Suite : AboutCodeingTest</title>
+    <test-cases>
+        <test-case start="1476944065192" stop="1476944065194" status="passed">
+            <name>idTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="43306@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1476944065250" stop="1476944066992" status="passed">
+            <name>responseTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Aams-MacBook-Pro-2.local"/>
+                <label name="thread" value="43306@Aams-MacBook-Pro-2.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

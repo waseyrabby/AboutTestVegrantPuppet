@@ -1,0 +1,60 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 7,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "time" : {
+      "start" : 1476944065192,
+      "stop" : 1476971919721,
+      "duration" : 27854529
+    },
+    "name" : "total",
+    "type" : "TOTAL"
+  }, {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 1,
+      "message" : "NoSuchElementException: Unable to locate element: {\"method\":\"name\",\"selector\":\"todo[11]\"}\nCommand duration or timeout: 30.05 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'Aams-MacBook-Pro-2.local', ip: '192.168.56.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_92'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=33.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: ccbb54a1-9312-0e4c-9c53-1cf02731a67f\n*** Element info: {Using=name, value=todo[11]}",
+      "status" : "BROKEN"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Default Suite : AboutCodeingTest",
+      "statistic" : {
+        "total" : 7,
+        "passed" : 6,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 7,
+        "passed" : 6,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}
